@@ -1,0 +1,25 @@
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and cache folders
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local secrets
+.env
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated visual artifacts
+*.png
+*.jpg
+*.jpeg
+*.svg
+plots/
